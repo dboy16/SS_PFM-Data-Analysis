@@ -181,17 +181,14 @@ def main(data_dir,output_dir):
         df.to_csv(output_file)
         print('Output {}'.format(filename))
 
-# data_dir=r'\\sbodata\Xfer\Xiaomin Chen\AFMi Test\SSPFM\2D Map on PZT\SSPFM Training\AutoCapture\Captured_After_20210412172903'
-# output_dir=r'C:\Users\Xiaomin.Chen\Desktop\AFMi-Test\Projects\SS-PFM\2D Map on PZT\Data1\CSV'
+data_dir=r'\\sbodata\Xfer\Xiaomin Chen\AFMi Test\SSPFM\2D Map on PZT\SSPFM Training\AutoCapture\Captured_After_20210412172903'
+output_dir=r'C:\Users\Xiaomin.Chen\Desktop\AFMi-Test\Projects\SS-PFM\2D Map on PZT\Data1\CSV'
 
-data_dir=r'C:\Users\Xiaomin.Chen\Desktop\AFMi-Test\Projects\SS-PFM\2D Map on PZT\Data2\Test\Test dirIn'
-output_dir=r'C:\Users\Xiaomin.Chen\Desktop\AFMi-Test\Projects\SS-PFM\2D Map on PZT\Data2\Test\Test dirOut'
+# data_dir=r'C:\Users\Xiaomin.Chen\Desktop\AFMi-Test\Projects\SS-PFM\2D Map on PZT\Data2\Test\Test dirIn'
+# output_dir=r'C:\Users\Xiaomin.Chen\Desktop\AFMi-Test\Projects\SS-PFM\2D Map on PZT\Data2\Test\Test dirOut'
 
 main(data_dir,output_dir)
 print('Data Extraction Is Completed')
-
-# Testing Github
-
 
 
 
